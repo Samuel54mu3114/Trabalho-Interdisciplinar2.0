@@ -1,0 +1,242 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Minha parte no css */
+/* NavBar */
+.navbar-brand img {
+    margin-left: 70%;
+}
+
+.navbar-collapse {
+    margin-right: 15%;
+    font-size: 1rem;
+}
+
+.nav-item {
+    margin-left: 10%;
+    font-size: 1.2rem;
+}
+
+/* Card */
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.section-header p {
+    font-size: 18px;
+}
+
+.single-service {
+    border: 1px solid gray;
+    text-align: center;
+    background: #fff;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    border-radius: 6px;
+}
+
+.single-service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.single-service:hover .service-bg h2 {
+    background: #fff;
+    transition: .10s;
+    font-weight: 700;
+    color: rgba(15, 135, 240, 0.973);
+}
+
+.service-bg {
+    height: 200px;
+    position: relative;
+}
+
+.service-bg-1 {
+    background: url("../img/destaque1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.service-bg-2 {
+    background: url("../img/destaque2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.service-bg-3 {
+    background: url("../img/destaque3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.service-bg h2 {
+    color: #fff;
+    background: rgba(15, 135, 240, 0.973);
+    border: 2px solid rgba(15, 135, 240, 0.973);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    padding: 14px;
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    margin: 0;
+    bottom: -12%;
+    border-radius: 40px;
+    letter-spacing: 2px;
+}
+
+.btn-area {
+    display: inline-block;
+    color: rgb(44, 150, 255);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 14%;
+    text-transform: capitalize;
+    margin-bottom: 9%;
+}
+
+@media only screen and (max-width: 767px) {
+    .single-service {
+        margin-top: 10%;
+        margin-bottom: 9%;
+    }
+
+    .service-bg h2 {
+        font-size: 14px;
+    }
+}
+/* Fim dos cards */
+
+/* Footer */
+.social{
+    margin-top: 10px;
+}
+
+.icon{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    width: 270px;
+}
+
+.social a {
+    font-size: 2.5em;
+    padding: 1rem;
+    color: #fff;
+}
+
+.title{
+    margin-top: 10px;
+}
+
+.social a:hover{
+    color: rgb(112, 222, 228);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(36, 12, 169) ;
+    padding: 2%;
+    color: #fff;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(250, 51, 51);
+    color: #fff;
+    padding: 15px;
+}
+
+@media (max-width: 900px){
+    .social a{
+        padding: 1rem;
+        font-size: 25px;
+    }
+    
+    .title h3 {
+        font-size: 20px;
+    }
+
+    .title p{
+        font-size: 15px;
+    }
+
+    .social h3{
+        font-size: 20px;
+    }
+
+    .footer{
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 600px){
+    .social a{
+        font-size: 1.7em;
+        padding: 10px;
+    }
+
+    .social{
+        margin-bottom: 20px;
+    }
+
+    .icon{
+        width: 180px;
+        margin-top: 20px;
+        margin-bottom: 10px; 
+    }
+}
+/* Fim do footer */
+
+/* Media Queries */
+@media(max-width:991px) {
+    .navbar-brand img {
+        margin-left: auto;
+        width: 90px;
+        height: 50px;
+    }
+
+    .navbar-collapse {
+        margin-left: 10%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .nav-item {
+        margin-right: 10%;
+        font-size: 1rem;
+    }
+
+    .carousel-item img {
+        height: auto;
+    }
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* Fim da minha parte */
+
+/* Início dos produtos */
+
+/* Fim dos produtos */
+
+
+/* Inicio do sobre */
+
+/* Fim do sobre */
+
+
+/* Início do contatos */
+
+/* Fim do contato */
