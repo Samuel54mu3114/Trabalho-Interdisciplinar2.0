@@ -1,0 +1,25 @@
+strong{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    border-radius: 18px;
+    font-size: 30px;
+    color: white;
+    background-color: white;
+    text-align: center; 
+     padding: 20px;
+}
+
+strong{
+    border: 2px solid rgb(26, 182, 109);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

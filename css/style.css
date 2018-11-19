@@ -59,19 +59,19 @@ body {
 }
 
 .service-bg-1 {
-    background: url("../img/destaque1.jpg");
+    background: url("../img/teste1.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .service-bg-2 {
-    background: url("../img/destaque2.jpg");
+    background: url("../img/teste2.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .service-bg-3 {
-    background: url("../img/destaque3.jpg");
+    background: url("../img/teste3.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -228,7 +228,35 @@ a:hover {
 /* Fim da minha parte */
 
 /* Início dos produtos */
+strong{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
 
+h1{
+    border-radius: 18px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(209, 56, 39);
+    text-align: center; 
+     padding: 20px;
+}
+
+strong{
+    border: 2px solid rgb(83, 5, 226);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.color{
+    color: white;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 /* Fim dos produtos */
 
 
