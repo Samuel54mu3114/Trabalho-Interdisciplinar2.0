@@ -261,10 +261,18 @@ p{
 
 
 /* Inicio do sobre */
+video{
+    width: 650px;
+}
 
+@media (max-width:800px){
+    video{
+        width: 60%;
+    }
+
+    img{
+        align-items: center;
+        justify-content: center;
+    }
+}
 /* Fim do sobre */
-
-
-/* Início do contatos */
-
-/* Fim do contato */
